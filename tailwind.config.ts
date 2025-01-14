@@ -2,6 +2,7 @@ import type { Config } from 'tailwindcss'
 
 export default {
   content: [
+    './src/**/*.vue',
     './pages//*.{js,ts,jsx,tsx,mdx}',
     './components//*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -16,18 +17,13 @@ export default {
 
     colors: {
       white: '#FFFFFF',
-      'white-secondary': '#D1D2DA',
-      'white-soft': '#C8CBE7',
-      'dark-blue': '#25273D',
-      'light-gray': '#5B5E7E',
-      'light-gray-secondary': '#9495A5',
-      'light-gray-outline': '#494C6B',
-      blue: '#3A7CFD',
-      grey: '#817D92',
+      black: '#000000',
+      'light-gray': '#3F3F3F',
+      grey: '#2C2C2C',
     },
 
     fontFamily: {
-      primary: ['Outfit', 'sans-serif'],
+      primary: ['Rubik', 'sans-serif'],
     },
 
     spacing: {
@@ -57,6 +53,10 @@ export default {
     extend: {
       borderRadius: {
         xl: '20px',
+      },
+      backgroundImage: {
+        desktop: "url('/src/assets/img/pattern-bg-desktop.png')",
+        mobile: "url('/src/assets/img/pattern-bg-mobile.png')",
       },
     },
   },

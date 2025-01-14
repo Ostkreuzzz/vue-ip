@@ -6,8 +6,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Outfit';
-  src: url('./fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }

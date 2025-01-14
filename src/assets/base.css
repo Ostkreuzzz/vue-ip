@@ -8,16 +8,14 @@
 
 body {
   min-height: 100vh;
-  color: #C8CBE7;
-  background: #25273D;
-  transition:
-    color 0.5s,
-    background-color 0.5s;
+  color: #2c2c2c;
   line-height: 1.6;
-  font-family:
-    "Outfit", sans-serif;
-    sans-serif;
-  font-size: 16px;
+  background-image: url('../src/assets/img/pattern-bg-desktop.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
