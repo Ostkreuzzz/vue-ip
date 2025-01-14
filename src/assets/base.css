@@ -10,9 +10,7 @@ body {
   min-height: 100vh;
   color: #2c2c2c;
   line-height: 1.6;
-  background-image: url('../src/assets/img/pattern-bg-desktop.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: white;
 
   font-family: 'Rubik', sans-serif;
   font-size: 18px;

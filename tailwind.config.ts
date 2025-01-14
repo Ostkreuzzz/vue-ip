@@ -18,7 +18,8 @@ export default {
     colors: {
       white: '#FFFFFF',
       black: '#000000',
-      'light-gray': '#3F3F3F',
+      blue: '#5c7ee7',
+      'light-gray': '#979797',
       grey: '#2C2C2C',
     },
 
@@ -27,6 +28,7 @@ export default {
     },
 
     spacing: {
+      0: '0px',
       4: '4px',
       8: '8px',
       10: '10px',
@@ -51,8 +53,9 @@ export default {
     },
 
     extend: {
-      borderRadius: {
-        xl: '20px',
+      backgroundSize: {
+        'full-width-desktop': '100% 90%',
+        'full-width-mobile': '100% auto',
       },
       backgroundImage: {
         desktop: "url('/src/assets/img/pattern-bg-desktop.png')",

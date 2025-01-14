@@ -1,39 +1,29 @@
-# vue-custom-todo
+# Frontend Mentor - IP address tracker solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [IP address tracker challenge](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Overview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### The challenge
 
-## Type Support for `.vue` Imports in TS
+Users should be able to:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Search for any IP addresses and see the key information and location
 
-## Customize configuration
+### Screenshot
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+![](./desktop-preview.jpg)
 
-## Project Setup
+### Built with
 
-```sh
-npm install
-```
+- Flexbox
+- Mobile-first workflow
+- Tailwind - JS Framework
+- Vue 3
+- Axios
+- REST API
+- GOOGLE MAPS
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
